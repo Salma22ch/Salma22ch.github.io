@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -88,7 +90,34 @@ canvas {
 
 .info h2 {
     padding-bottom: 5%;
+    /* border-right: .1em solid rgb(201, 40, 150); */
+    /* https://css-tricks.com/snippets/css/typewriter-effect/
+    overflow: hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+    animation: typing 2s steps(21, end),blink-caret .15s step-end infinite alternate; */
 }
+
+.info p{
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  letter-spacing: .15em;
+}
+
+.links{
+  margin-left:20px ;
+}
+
+.links img{
+    width: 30px;
+    border-radius:50%;
+    margin: 20px 15px;
+    
+}
+
+
+
 
 
 /* footer css styles  */
