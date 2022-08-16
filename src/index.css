@@ -2,30 +2,33 @@
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     transition: 3s;
     font-family: 'League Spartan';
     box-sizing: border-box;
+    color: white;
+    
 }
 
-.body{
-    height: 100vh; 
-    background-image:linear-gradient(rgb(0, 0, 36) 60%, rgba(25, 2, 36, 0.9));
+.body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 36) 60%, rgba(25, 2, 36, 0.9));
     background-size: cover;
 
 }
 
 canvas {
-    display: block; /* fix necessary to remove space at bottom of canvas */
+    display: block;
+    /* fix necessary to remove space at bottom of canvas */
     /* position: fixed;
     top: 10px; */
-  }
+}
 
 
 /* nav bar css styles  */
-.nav-bar{
+.nav-bar {
     display: flex;
     justify-content: center;
     padding-top: 10px;
@@ -33,7 +36,7 @@ canvas {
 
 }
 
-.nav-bar a{
+.nav-bar a {
     float: left;
     color: white;
     text-align: center;
@@ -44,7 +47,7 @@ canvas {
 
 }
 
-.nav-bar a:hover{
+.nav-bar a:hover {
     transform: translateX(10px);
     color: rgb(201, 40, 150);
 }
@@ -52,15 +55,15 @@ canvas {
 
 /* Home css files  */
 
-#tilt{
+#tilt {
     width: 700px !important;
     margin: auto !important;
     background-color: transparent !important;
-   
+
 }
 
 
-.container-home{
+.container-home {
     margin: auto;
     max-width: 700px;
     max-height: 400px;
@@ -71,20 +74,20 @@ canvas {
 
 }
 
-.card-home{
+.card-home {
     margin-left: 0%;
     margin-right: 5%;
 }
 
-#my-img{
-    height: auto; 
-    width: auto; 
+#my-img {
+    height: auto;
+    width: auto;
     border-radius: 1em;
-    max-width: 400px; 
+    max-width: 400px;
     max-height: 400px;
 }
 
-.info{
+.info {
     margin-top: 10%;
 }
 
@@ -98,30 +101,84 @@ canvas {
     animation: typing 2s steps(21, end),blink-caret .15s step-end infinite alternate; */
 }
 
-.info p{
-  display: grid;
-  place-items: center;
-  margin: 0 auto;
-  letter-spacing: .15em;
+.info p {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    letter-spacing: .15em;
 }
 
-.links{
-  margin-left:20px ;
+.links {
+    margin-left: 30px;
+    margin-top: 15px;
 }
 
-.links img{
-    width: 30px;
-    border-radius:50%;
+.links img {
+    width: 23px;
+    border-radius: 50%;
     margin: 20px 15px;
-    
+
+}
+
+
+/* skills css styles */
+
+.main-skills-container {
+    margin: auto;
+    max-width: 700px;
+    max-height: 400px;
+    display: flex;
+    flex-direction:column;
+}
+
+.skills-header {
+    text-align: center;
+}
+
+.skills-header h2 {
+    /* top | right | bottom | left */
+    margin: 5px auto 20px auto;
+    color: purple;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.skills-header p{
+    margin: 15px 15px 10px ;
+    color: white;
 }
 
 
 
+.skills-card {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.single-card{
+    width: 300px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
+.single-card h4{
+    margin-top: 20px;
+    color: rgb(212, 15, 212);
+}
 
+#tilt-single-card{
+    width: 50px !important;
+    height: 250px !important;
+    /* margin: auto !important; */
+    background-color: transparent !important;
+}
 /* footer css styles  */
-.footer{
+.footer {
     position: fixed;
     bottom: 10px;
     text-align: center;
