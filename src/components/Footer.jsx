@@ -5,8 +5,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       Created By Salma CHANA   
-      <br /> 
-      Made by :Technologies Copyright  &copy; 2022
+       Copyright  &copy; 2022
     </div>
   )
 }
