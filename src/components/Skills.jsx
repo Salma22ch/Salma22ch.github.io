@@ -1,6 +1,6 @@
 import React from 'react'
 import Tilt from 'react-vanilla-tilt'
-import { react, angular, html, css, node, js, flutter, java, unity, opengl, threejs, mysql, oracle, mongodb }
+import { react, angular, html, css, node, js, flutter, java, unity, opengl, threejs, mysql, oracle, mongodb , cplusplus, python, opencv, tableau, altair, D3}
   from '../assets/technology'
 
 const Skills = () => {
@@ -47,23 +47,26 @@ const Skills = () => {
         <Tilt options={{ scale: 2 }} id="tilt-single-card">
           <div className="single-card">
             <h4>Computer vision</h4>
+            <div className="tech-row">
+              <img src={opencv} />
+              <img src={python} />
+              <img src={cplusplus} />
+            </div>
             <h4>Data visualisation</h4>
+            <div className="tech-row">
+              <img src={D3} />
+              <img src={altair} />
+              <img src={tableau} />
+            </div>
             <h4>Problem solving</h4>
+            <div className="tech-row">
+              <img src={js} />
+              <img src={python} />
+              <img src={cplusplus} />
+            </div>
           </div>
         </Tilt>
 
-        {/* <div className="single-card">
-          <h4>3D developement
-          </h4>
-        </div>
-        <div className="single-card">
-          <h4>Data visualisation
-          </h4>
-        </div>
-        <div className="single-card">
-          <h4>Computer vision
-          </h4>
-        </div> */}
       </div>
 
 
