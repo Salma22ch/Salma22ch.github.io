@@ -1,5 +1,5 @@
 import React from 'react'
-import { inpt, ip, telecom } from '../assets/technology'
+import { inpt, ip, telecom, my } from '../assets/technology'
 const Aboutme = () => {
   return (
     <div className="main-skills-container">
@@ -10,44 +10,45 @@ const Aboutme = () => {
         {/* differenct courses  in #interaction/UI conception/ Advanced programmation/ VR experience/ computer vision*/}
       </div>
 
-      <div className="timeline">
-
-        <div className="container left ">
-          <div className="content">
-            <h2>2022/2023</h2>
-            {/* <img src={ip} /> */}
-            <p> Institut polytechnique de Paris (IP Paris)</p>
-            <p> Master 2 IGD</p>
+      {/* timeline */}
+      <div className='container-timeline'>
+         <div className="year-timeline">
+          <h3>2022/2023</h3>
+          <h3>2021/2022</h3>
+          <h3>2019/2021</h3>
+          <h3>2017/2019</h3>
+         </div>
+          <div className="img-timeline">
+              <div className="vertical-line"></div>
+              <img src={ip}  />
+              <div className="vertical-line"></div>
+              <img src={telecom}  />
+              <div className="vertical-line"></div>
+              <img src={inpt}  />
+              <div className="vertical-line"></div>
+              <img src={my}  />
           </div>
-        </div>
-
-        <div className="container right ">
-          <div className="content">
-            <h2>2021/2022</h2>
-            <div>
-              {/* <img src={telecom} /> */}
-              <p>Telecom Paris  GPA 4/4</p>
-              <p>Double major : MODS/IGR</p>
-            </div>
+          <div className="info-timeline">
+           <div className="content">
+            <h3>Institut Polytechnique de Paris </h3>
+            <p> Master 2 Interaction, graphics, design </p>
+           </div>
+           <div className="content">
+            <h3>Telecom Paris </h3>
+            <p> Engineering degree  in 3D & interactive systems (IGR) and Markets, Organization, Data, Strategy study track (MODS)  </p>
+           </div>
+           <div className="content">
+            <h3>Institut Polytechnique de Paris </h3>
+            <p> Engineering degree in software engineering</p>
+           </div>
+           <div className="content">
+            <h3>Preparatory classes Moulay Youssef </h3>
+            <p> Mathematics and Physics post-secondary studies leading to the nation-wide com-
+petitive exam for admission to a graduate engineering school. </p>
+           </div>
           </div>
-        </div>
-
-
-        <div className="container left ">
-          <div className="content">
-            <h2>2019/2021</h2>
-            {/* <img src={inpt} /> */}
-            <p>Institut national des postes et télécommunications (INPT) </p>
-            <p>Enginnering degree in Software engineering</p>
-          </div>
-        </div>
-        <div className="container right ">
-          <div className="content">
-            <h2>2017/2019</h2>
-            <p>Preparatory classes</p>
-          </div>
-        </div>
       </div>
+
     </div>
   )
 }

@@ -31,6 +31,7 @@ export const altair=require('./DV/altair.png');
 export const tableau=require('./DV/tableau.png');
 
 //universities
-export const inpt=require('./universites/inpt.png');
+export const my=require('./universites/my.jpeg');
+export const inpt=require('./universites/inpt.jpeg');
 export const ip=require('./universites/ip.png');
 export const telecom=require('./universites/telecom.png');
