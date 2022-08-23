@@ -1,5 +1,5 @@
 import React from 'react'
-import {inpt, ip, telecom} from '../assets/technology'
+import { inpt, ip, telecom } from '../assets/technology'
 const Aboutme = () => {
   return (
     <div className="main-skills-container">
@@ -12,7 +12,7 @@ const Aboutme = () => {
 
       <div className="timeline">
 
-        <div className="container ">
+        <div className="container left ">
           <div className="content">
             <h2>2022/2023</h2>
             {/* <img src={ip} /> */}
@@ -20,26 +20,28 @@ const Aboutme = () => {
             <p> Master 2 IGD</p>
           </div>
         </div>
-  
-        <div className="container ">
+
+        <div className="container right ">
           <div className="content">
             <h2>2021/2022</h2>
-            {/* <img src={telecom} /> */}
-            <p>Telecom Paris  GPA 4/4</p>
-            <p>Double major : MODS/IGR</p>
+            <div>
+              {/* <img src={telecom} /> */}
+              <p>Telecom Paris  GPA 4/4</p>
+              <p>Double major : MODS/IGR</p>
+            </div>
           </div>
         </div>
-  
 
-        <div class="container ">
-          <div class="content">
+
+        <div className="container left ">
+          <div className="content">
             <h2>2019/2021</h2>
             {/* <img src={inpt} /> */}
             <p>Institut national des postes et télécommunications (INPT) </p>
             <p>Enginnering degree in Software engineering</p>
           </div>
         </div>
-        <div className="container ">
+        <div className="container right ">
           <div className="content">
             <h2>2017/2019</h2>
             <p>Preparatory classes</p>
