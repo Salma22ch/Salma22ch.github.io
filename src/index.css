@@ -195,63 +195,108 @@ canvas {
 
 /* About me css styles - Timeline */
 
-.container-timeline{
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  margin-left: 50px
+.container-timeline {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 50px
 }
 
-.year-timeline{
-  display: flex;
-  flex-direction: column;
-  justify-content:start;
+.year-timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 
-.year-timeline h3{
-  margin-top:70px ;
-  margin-right: 10px;
-  margin-bottom: 20px;
+.year-timeline h3 {
+    margin-top: 70px;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
-.img-timeline{
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
+.img-timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 
 }
 
-.img-timeline img{
-  max-width:45px;
-  max-height: 45px;
-  object-fit: cover;
-  border-radius: 30px;
-  margin: 5px;
-  background-color: white;
-}
- /* dotted line  ... */
-.vertical-line{
-  border-left: 6px solid purple;
-  height: 55px;
-  margin-left: 40%;
+.img-timeline img {
+    max-width: 45px;
+    max-height: 45px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin: 5px;
+    background-color: white;
 }
 
-.info-timeline{
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
+/* dotted line  ... */
+.vertical-line {
+    border-left: 6px solid purple;
+    height: 55px;
+    margin-left: 40%;
 }
 
-.content{
- margin-left: 5px;
- /* margin-bottom: 20px; */
+.info-timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 
-.content h3{
-  color: purple;
-  margin-bottom: 5px;
-  margin-top:60px ;
+.content {
+    margin-left: 5px;
+    /* margin-bottom: 20px; */
 }
+
+.content h3 {
+    color: purple;
+    margin-bottom: 5px;
+    margin-top: 60px;
+}
+
+/* projects section css styles  */
+
+.project-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+  /* top | right | bottom | left */
+
+.projects-header h2{
+    margin: 5px auto 5px auto;
+    color: purple;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.key-words{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.key-words span{
+    margin: 5px;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.projects-content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
 /* footer css styles  */
 .footer {
     position: fixed;
@@ -265,6 +310,3 @@ canvas {
 }
 
 /* -------------Responsive design--------------------- */
-
-
-  
