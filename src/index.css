@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    transition: 3s;
+    transition: 1s;
     font-family: 'League Spartan';
     box-sizing: border-box;
     color: white;
@@ -268,41 +268,60 @@ canvas {
     justify-content: center;
 }
 
-  /* top | right | bottom | left */
+/* top | right | bottom | left */
 
-.projects-header h2{
+.projects-header h2 {
     margin: 5px auto 5px auto;
     color: purple;
     font-size: 80px;
     font-weight: 500;
 }
 
-.key-words{
-    margin: auto;
+.key-words {
+    margin: 5px auto 25px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.key-words span{
+.key-words span {
     margin: 5px;
     font-weight: bold;
     padding: 7px;
     cursor: pointer;
-    
+
 }
 
- span:hover{
+span:hover {
     background-color: gray !important;
     transform: scale(1.2);
 }
 
 .projects-content {
     margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 10px;
+}
+/* maximise container option + prev next button + to show 3 by 3 ==> flip the cord to display description*/
+/* https://codemyui.com/3d-card-flip-hovering-text/ */
+
+.project-container {
+    border-radius: 1em;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    height: 200px;
+    width: 200px;
+    background-color: rgb(138, 62, 138);
+    /* filter: blur(1px);
+    backdrop-filter: blur(1px); */
+    box-shadow: 1px 2px 2px grey;
     display: flex;
     flex-direction: column;
     justify-content: start;
+    padding: 10%;
 }
+
 
 /* footer css styles  */
 .footer {

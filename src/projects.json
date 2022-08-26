@@ -4,7 +4,6 @@
         "id": 1,
         "Title": "Delivery App",
         "Description": "Delivery app is a mobile application designed to connect customers and delivery people. It was created in collaboration with two of my colleagues during an internship at Soft Center.",
-        "Image": "Delivery_screen",
         "tag":["#mobile-dev","#Flutter","#Firebase"],
         "Demo":"https://drive.google.com/file/d/1pxtRgNWK3zEIeUOkapFNcmErlwZ3AV8z/view?usp=sharing"
       },
@@ -12,7 +11,6 @@
         "id": 2,
         "Title": "Baztami",
         "Description": "It is a mobile application for budget management.",
-        "Image": "Baztami",
         "tag":["#mobile-dev","#flutter","#firebase"],
         "Demo":"https://drive.google.com/file/d/1pxtRgNWK3zEIeUOkapFNcmErlwZ3AV8z/view?usp=sharing"
       },
@@ -20,7 +18,6 @@
         "id": 3,
         "Title": "Solar App",
         "Description": "Mobile platform for monitoring the consumption of energy produced by solar panels",
-        "Image": "Solar_panel",
         "tag":["#mobile-dev","#Flutter","#NodeJs/expressJs", "#MongoDB"],
         "Demo":"https://drive.google.com/file/d/1pxtRgNWK3zEIeUOkapFNcmErlwZ3AV8z/view?usp=sharing"
       },
@@ -28,7 +25,6 @@
         "id": 4,
         "Title": "PeopleBook",
         "Description": "PeopleBook is a social network platform that allows you to chat with your friends and share new posts",
-        "Image": "PeopleBook",
         "tag":["#web-dev","#React/Redux","#NodeJs/expressJs", "#MongoDB"],
         "Demo":"https://www.youtube.com/watch?v=eZb0u09B4Fo&list=LL&index=1&t=4s&ab_channel=LKHADIRmostapha"
       },
@@ -36,7 +32,6 @@
         "id": 5,
         "Title": "Interactive restaurant menu",
         "Description": "As its name suggests, it is a mobile application offering an interactive restaurant menu to the user allowing him to choose and compose his meals easily.",
-        "Image": "restaurant_menu",
         "tag":["#mobile-dev","#Java"],
         "Demo":"https://www.youtube.com/watch?v=eZb0u09B4Fo&list=LL&index=1&t=4s&ab_channel=LKHADIRmostapha"
       },
@@ -44,17 +39,23 @@
         "id": 6,
         "Title": "VR monitoring: How to distinguish between real and VR memories?",
         "Description": "With the development of VR technology, virtual experiences perfectly simulate real experiences and, over time, it is difficult to identify the source of a given memory. This project set out to help the memory correctly identify the environment in which the memory occurred.",
-        "Image": "vr_memory",
         "tag":["#VR/3D-dev","#unity","#C#"]     
       },
       {
         "id": 7,
         "Title": "Sustainable IT: Communauté éphémére Navigacom",
         "Description": "In this project, we worked with Navigacom consultants during 4 months on topics like Sustaible It, digital sobriety and ecodesign of digital services. Our missions consisted in preparing the content of sessions organized by Navigacom for the CIOs of large French digital and industrial companies.",
-        "Image": "navigacom",
-        "tag":["#consulting-project","sustainable-It"]
+        "tag":["#consulting-project","#sustainable-It"]
+        
+      },
+      {
+        "id": 8,
+        "Title": "Portfolio",
+        "Description": "My personal website. I tried to make it as sober as possible by applying the rules of digital sobriety. ",
+        "tag":["#web-dev","#react","#sustainable-It"]
         
       }
+
 
 
     ]
