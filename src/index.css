@@ -288,6 +288,13 @@ canvas {
     margin: 5px;
     font-weight: bold;
     padding: 7px;
+    cursor: pointer;
+    
+}
+
+ span:hover{
+    background-color: gray !important;
+    transform: scale(1.2);
 }
 
 .projects-content {

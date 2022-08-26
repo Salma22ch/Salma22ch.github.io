@@ -2,12 +2,16 @@ import React from 'react'
 import '../index.css'
 
 const Projects = () => {
+  const clickspan1 = () => {
+    alert('name');
+  }
+
   return (
     <div className="project-main-container">
       <div className="projects-header">
           <h2>Proj🚀cts</h2>
           <div className="key-words">
-            <span style={{backgroundColor:"blue"}}>#web-dev</span>
+            <span style={{backgroundColor:"blue"}} onClick={clickspan1}>#web-dev</span>
             <span style={{backgroundColor:"peru"}}>#mobile-dev</span>
             <span style={{backgroundColor:"purple"}}>#3D/VR -dev</span>
             <span style={{backgroundColor:"crimson"}}>#Computer vision</span>
