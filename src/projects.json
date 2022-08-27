@@ -45,14 +45,14 @@
         "id": 7,
         "Title": "Sustainable IT: Communauté éphémére Navigacom",
         "Description": "In this project, we worked with Navigacom consultants during 4 months on topics like Sustaible It, digital sobriety and ecodesign of digital services. Our missions consisted in preparing the content of sessions organized by Navigacom for the CIOs of large French digital and industrial companies.",
-        "tag":["#consulting-project","#sustainable-It"]
+        "tag":["#consulting","#sustainable-it"]
         
       },
       {
         "id": 8,
         "Title": "Portfolio",
         "Description": "My personal website. I tried to make it as sober as possible by applying the rules of digital sobriety. ",
-        "tag":["#web-dev","#react","#sustainable-It"]
+        "tag":["#web-dev","#react","#sustainable-it"]
         
       }
 
