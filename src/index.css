@@ -307,6 +307,7 @@ span:hover {
 /* maximise container option + prev next button + to show 3 by 3 ==> flip the cord to display description*/
 /* https://codemyui.com/3d-card-flip-hovering-text/ */
 
+/* transparent effect on card */
 .project-container {
     border-radius: 1em;
     border: 2px solid rgba(255, 255, 255, 0.3);
@@ -321,6 +322,8 @@ span:hover {
     justify-content: start;
     padding: 10%;
 }
+
+
 
 
 /* footer css styles  */
