@@ -7,14 +7,14 @@ const Projects = () => {
   var data = require("../projects.json")
   const [keyword, setkeyword] = useState('');
   const [projects, setProjects] = useState(data.projects);
- 
+
   // tagColor[Math.floor(Math.random()*7)
 
 
   // color array
-  const tagColor=["grey", "blue","peru","purple","crimson","orange","green"];
-  const wcolor="peru";
-  
+  const tagColor = ["grey", "blue", "peru", "purple", "crimson", "orange", "green"];
+  const wcolor = "peru";
+
   useEffect(() => {
     //perfect filer works
     const filteredprojects = keyword === '' ? data.projects : data.projects.filter((p) => p.tag.includes(keyword))
@@ -35,17 +35,25 @@ const Projects = () => {
           <span style={{ backgroundColor: "purple" }} onClick={e => setkeyword(e.target.outerText)}>#VR/3D-dev</span>
           <span style={{ backgroundColor: "crimson" }} onClick={e => setkeyword(e.target.outerText)}>#Computer-vision</span>
           <span style={{ backgroundColor: "orange" }} onClick={e => setkeyword(e.target.outerText)}>#consulting</span>
-          <span style={{ backgroundColor: "green" }} onClick={e => setkeyword(e.target.outerText)}>#Sustainble-it</span>
+          <span style={{ backgroundColor: "green" }} onClick={e => setkeyword(e.target.outerText)}>#sustainable-it</span>
         </div>
       </div>
       <div className="projects-content">
         {projects?.map((project) => (
           <div className="project-container" key={project.id}>
             <h4>{project.Title}</h4>
+            <div className='tags'>
               {project.tag.map((t) => (
-                <span style={{backgroundColor:`${tagColor[project.tag.indexOf(t)]}`}}>{t}</span>
+                <span style={{ backgroundColor: `${tagColor[project.tag.indexOf(t) + 1]}` }}>{t}</span>
               ))}
             </div>
+
+            <div className="buttons">
+            {project.Demo!=="" && (<a href={project.Demo} target="_blank"><button>Demo</button></a>)}
+            {project.Github!==""&& (<a href={project.Github} target="_blank"><button >Github</button></a>)}
+            </div>
+             {/* idee  : instead of tags use technologie images */}
+          </div>
         ))}
       </div>
     </div>

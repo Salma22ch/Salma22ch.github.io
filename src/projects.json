@@ -13,14 +13,14 @@
         "Title": "Baztami",
         "Description": "It is a mobile application for budget management.",
         "tag":["#mobile-dev","#flutter","#firebase"],
-        "Demo":"https://drive.google.com/file/d/1pxtRgNWK3zEIeUOkapFNcmErlwZ3AV8z/view?usp=sharing",
+        "Demo":"",
         "Github":"https://github.com/lkhadirn/Baztami-App-Flutter"
       },
       {
         "id": 3,
         "Title": "Solar App",
         "Description": "Mobile platform for monitoring the consumption of energy produced by solar panels",
-        "tag":["#mobile-dev","#Flutter","#NodeJs/expressJs", "#MongoDB"],
+        "tag":["#mobile-dev","#Flutter","#nodejs","expressjs", "#MongoDB"],
         "Demo":"https://drive.google.com/file/d/1pxtRgNWK3zEIeUOkapFNcmErlwZ3AV8z/view?usp=sharing",
         "Github":"https://github.com/Salma22ch/Solar-app-PFA"
       },
@@ -28,7 +28,7 @@
         "id": 4,
         "Title": "PeopleBook",
         "Description": "PeopleBook is a social network platform that allows you to chat with your friends and share new posts",
-        "tag":["#web-dev","#React/Redux","#NodeJs/expressJs", "#MongoDB"],
+        "tag":["#web-dev","#react","#redux","#nodejs","expressjs", "#MongoDB"],
         "Demo":"https://www.youtube.com/watch?v=eZb0u09B4Fo&list=LL&index=1&t=4s&ab_channel=LKHADIRmostapha",
         "Github":"https://github.com/ElMehdiEchchad/Social-Network"
       },
@@ -53,7 +53,7 @@
         "Title": "Communauté éphémère de Navigacom",
         "Description": "In this project, we worked with Navigacom consultants during 4 months on topics like Sustaible It, digital sobriety and ecodesign of digital services. Our missions consisted in preparing the content of sessions organized by Navigacom for the CIOs of large French digital and industrial companies.",
         "tag":["#consulting","#sustainable-it"],
-        "Demo":"k",
+        "Demo":"",
         "Github":""
         
       },
