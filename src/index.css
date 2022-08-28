@@ -320,11 +320,32 @@ span:hover {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    padding: 10%;
+    text-align: center;
+    padding: 5%;
+    letter-spacing: 2px;
 }
 
+.project-container h4{
+   transition: 0.5s;
+   text-shadow: 1px 2px 2px black;
+   margin-bottom: 10%;
+}
 
+.project-container div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
 
+}
+
+.project-container span{
+    padding: 4px;
+}
 
 /* footer css styles  */
 .footer {
