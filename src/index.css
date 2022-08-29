@@ -313,9 +313,7 @@ span:hover {
     border: 2px solid rgba(255, 255, 255, 0.3);
     height: 200px;
     width: 230px;
-    background-color: rgb(138, 62, 138);
-    /* filter: blur(1px);
-    backdrop-filter: blur(1px); */
+    /* background-color: rgb(138, 62, 138); */
     box-shadow: 1px 2px 2px grey;
     display: flex;
     flex-direction: column;
@@ -327,43 +325,59 @@ span:hover {
 
 .project-container h4{
    text-shadow: 1px 2px 2px black;
-   margin-bottom: 20%;
    margin-top: 5%;
    text-align: center;
 }
 
 
-.project-container span{
+/* .project-container span{
     padding: 1px;
     font-size: small;
     
-}
+} */
 
 .tags{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    /* justify-content: center;
-    align-content: center; */
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    width: auto;
     gap: 4%;
+}
+
+.tags img{
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    margin: 4px;
 }
 
 .buttons{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px !important;
+    margin-top: 15%;
+    margin-bottom: 10% !important;
 }
 
 .buttons button{
     border-radius: 20px;
-    height: 30px;
-    width: 60px;
-    background-color: blueviolet;
+    height: 40px;
+    width: 80px;
+    background-color: #895cf2;
     margin-left: 10px;
     cursor: pointer;
+    font-weight: 400;
 }
 
+.buttons button:hover{
+    /* background-color: rgb(216, 45, 222); */
+    background-color: rgb(31, 225, 225) !important;
+
+}
 /* add flip icon  */
 
 /* footer css styles  */

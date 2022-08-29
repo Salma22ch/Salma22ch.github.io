@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../index.css'
+import { react, redux, node, flutter, css, firebase, unity, mongodb, navigacom, NNG, java, ccharp,android }
+  from '../assets/technology'
 
 const Projects = () => {
 
@@ -14,6 +16,26 @@ const Projects = () => {
   // color array
   const tagColor = ["grey", "blue", "peru", "purple", "crimson", "orange", "green"];
   const wcolor = "peru";
+
+  //images array
+
+  const logsconvert = (t) => {
+    if (t == "react") return react;
+    if (t == "redux") return redux;
+    if (t == "node") return node;
+    if (t == "flutter") return flutter;
+    if (t == "firebase") return firebase;
+    if (t == "unity") return unity;
+    if (t == "mongodb") return mongodb;
+    if (t == "navigacom") return navigacom;
+    if (t == "NNG") return NNG;
+    if (t == "java") return java;
+    if (t == "android") return android;
+    if (t == "c#") return ccharp;
+    if (t == "css") return css;
+  }
+
+
 
   useEffect(() => {
     //perfect filer works
@@ -42,17 +64,18 @@ const Projects = () => {
         {projects?.map((project) => (
           <div className="project-container" key={project.id}>
             <h4>{project.Title}</h4>
+            <div className="buttons">
+              {project.Demo !== "" && (<a href={project.Demo} target="_blank" ><button style={{backgroundColor: "rgb(137, 92, 242)"}}>Demo</button></a>)}
+              {project.Github !== "" && (<a href={project.Github} target="_blank"><button style={{backgroundColor: "rgb(216, 45, 222)"}} >Github</button></a>)}
+            </div>
             <div className='tags'>
               {project.tag.map((t) => (
-                <span style={{ backgroundColor: `${tagColor[project.tag.indexOf(t) + 1]}` }}>{t}</span>
+                // <span style={{ backgroundColor: `${tagColor[project.tag.indexOf(t) + 1]}` }}>{t}</span>
+                <img src={logsconvert(t)} alt={logsconvert(t)} />
               ))}
             </div>
 
-            <div className="buttons">
-            {project.Demo!=="" && (<a href={project.Demo} target="_blank"><button>Demo</button></a>)}
-            {project.Github!==""&& (<a href={project.Github} target="_blank"><button >Github</button></a>)}
-            </div>
-             {/* idee  : instead of tags use technologie images */}
+
           </div>
         ))}
       </div>

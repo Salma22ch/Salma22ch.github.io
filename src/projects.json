@@ -4,7 +4,7 @@
         "id": 1,
         "Title": "Delivery App",
         "Description": "Delivery app is a mobile application designed to connect customers and delivery people. It was created in collaboration with two of my colleagues during an internship at Soft Center.",
-        "tag":["#mobile-dev","#Flutter","#Firebase"],
+        "tag":["#mobile-dev","flutter","firebase"],
         "Demo":"https://drive.google.com/file/d/1pxtRgNWK3zEIeUOkapFNcmErlwZ3AV8z/view?usp=sharing",
         "Github":""
       },
@@ -12,7 +12,7 @@
         "id": 2,
         "Title": "Baztami",
         "Description": "It is a mobile application for budget management.",
-        "tag":["#mobile-dev","#flutter","#firebase"],
+        "tag":["#mobile-dev","flutter","firebase"],
         "Demo":"",
         "Github":"https://github.com/lkhadirn/Baztami-App-Flutter"
       },
@@ -20,7 +20,7 @@
         "id": 3,
         "Title": "Solar App",
         "Description": "Mobile platform for monitoring the consumption of energy produced by solar panels",
-        "tag":["#mobile-dev","#Flutter","#nodejs","expressjs", "#MongoDB"],
+        "tag":["#mobile-dev","flutter","node","mongodb"],
         "Demo":"https://drive.google.com/file/d/1pxtRgNWK3zEIeUOkapFNcmErlwZ3AV8z/view?usp=sharing",
         "Github":"https://github.com/Salma22ch/Solar-app-PFA"
       },
@@ -28,7 +28,7 @@
         "id": 4,
         "Title": "PeopleBook",
         "Description": "PeopleBook is a social network platform that allows you to chat with your friends and share new posts",
-        "tag":["#web-dev","#react","#redux","#nodejs","expressjs", "#MongoDB"],
+        "tag":["#web-dev","react","redux","node", "mongodb"],
         "Demo":"https://www.youtube.com/watch?v=eZb0u09B4Fo&list=LL&index=1&t=4s&ab_channel=LKHADIRmostapha",
         "Github":"https://github.com/ElMehdiEchchad/Social-Network"
       },
@@ -36,7 +36,7 @@
         "id": 5,
         "Title": "Interactive restaurant menu",
         "Description": "As its name suggests, it is a mobile application offering an interactive restaurant menu to the user allowing him to choose and compose his meals easily.",
-        "tag":["#mobile-dev","#Java"],
+        "tag":["#mobile-dev","java","android"],
         "Demo":"https://www.youtube.com/watch?v=eZb0u09B4Fo&list=LL&index=1&t=4s&ab_channel=LKHADIRmostapha",
         "Github":"https://github.com/Salma22ch/Interactive-restaurant-menu"
       },
@@ -44,7 +44,7 @@
         "id": 6,
         "Title": "Distinguish between real and VR memories.",
         "Description": "With the development of VR technology, virtual experiences perfectly simulate real experiences and, over time, it is difficult to identify the source of a given memory. This project set out to help the memory correctly identify the environment in which the memory occurred.",
-        "tag":["#VR/3D-dev","#unity","#C#"] ,
+        "tag":["#VR/3D-dev","unity","c#"] ,
         "Demo":"",
         "Github":"https://github.com/pyuan-21/IGR205-project"    
       },
@@ -52,8 +52,8 @@
         "id": 7,
         "Title": "Communauté éphémère de Navigacom",
         "Description": "In this project, we worked with Navigacom consultants during 4 months on topics like Sustaible It, digital sobriety and ecodesign of digital services. Our missions consisted in preparing the content of sessions organized by Navigacom for the CIOs of large French digital and industrial companies.",
-        "tag":["#consulting","#sustainable-it"],
-        "Demo":"",
+        "tag":["#consulting","navigacom","NNG"],
+        "Demo":"https://www.linkedin.com/posts/navigacom_sustainableit-sustainable-developpementdurable-activity-6955540649626456064-QaRE?utm_source=share&utm_medium=member_desktop",
         "Github":""
         
       },
@@ -61,7 +61,7 @@
         "id": 8,
         "Title": "Personal website",
         "Description": "My personal website. I tried to make it as sober as possible by applying the rules of digital sobriety. ",
-        "tag":["#web-dev","#react","#sustainable-it"],
+        "tag":["#web-dev","react","css"],
         "Demo":"",
         "Github":"https://github.com/Salma22ch/Portfolio"
         

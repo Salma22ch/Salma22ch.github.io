@@ -35,3 +35,11 @@ export const my=require('./universites/my.jpeg');
 export const inpt=require('./universites/inpt.jpeg');
 export const ip=require('./universites/ip.png');
 export const telecom=require('./universites/telecom.png');
+
+//projects
+export const firebase=require('./projects/firebase.png');
+export const navigacom=require('./projects/Navigacom.jpeg');
+export const NNG=require('./projects/NNG.jpg');
+export const redux=require('./projects/redux.jpg');
+export const ccharp=require('./projects/ccharp.png');
+export const android=require('./projects/android.png');
