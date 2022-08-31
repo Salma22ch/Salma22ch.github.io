@@ -13,17 +13,20 @@
 }
 
 .body {
-    height: 100vh;
     background-image: linear-gradient(rgb(0, 0, 36) 60%, rgba(25, 2, 36, 0.9));
     background-size: cover;
 
 }
 
-canvas {
-    display: block;
-    /* fix necessary to remove space at bottom of canvas */
-    /* position: fixed;
-    top: 10px; */
+.globallayout{
+    margin-top: 12rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-areas:
+    "nav-bar container-home ."
+    ". container-timeline ."
+    ". main-skills-container .";
+    padding-bottom: 10rem;
 }
 
 
@@ -124,7 +127,7 @@ canvas {
 /* skills css styles */
 
 .main-skills-container {
-    margin: auto;
+    margin: 20% auto 30% auto;
     max-width: 700px;
     max-height: 400px;
     display: flex;

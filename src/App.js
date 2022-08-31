@@ -10,7 +10,8 @@ const App = () => (
     <NavBar />
 
     {/* main section ------------------- */}
-    <BrowserRouter>
+
+    {/* <BrowserRouter>
       <Switch>
         <Route exact path="/"> 
             <Home />
@@ -25,7 +26,13 @@ const App = () => (
           <Projects />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </BrowserRouter> */}
+
+    <Home/>
+    <Aboutme/>
+    <Skills/>
+    <Projects/>
+
 
 
 
