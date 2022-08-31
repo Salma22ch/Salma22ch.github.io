@@ -14,7 +14,7 @@ const Home = () => {
         id="tilt"
 
     >
-        <div className="container-home">
+        <div className="container-home" id="home">
             
             <div className="card-home">
                 <img id="my-img" src={profil} />

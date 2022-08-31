@@ -46,7 +46,7 @@ const Projects = () => {
   // e.target.outerText
 
   return (
-    <div className="project-main-container">
+    <div className="project-main-container" id="projects">
       <div className="projects-header">
         <h2>Proj🚀cts</h2>
         <div className="key-words">

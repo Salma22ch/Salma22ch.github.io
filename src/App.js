@@ -11,25 +11,8 @@ const App = () => (
 
     {/* main section ------------------- */}
 
-    {/* <BrowserRouter>
-      <Switch>
-        <Route exact path="/"> 
-            <Home />
-        </Route>
-        <Route exact path="/aboutme">
-          <Aboutme />
-        </Route>
-        <Route exact path="/skills">
-          <Skills />
-        </Route>
-        <Route exact path="/projects">
-          <Projects />
-        </Route>
-      </Switch>
-    </BrowserRouter> */}
-
     <Home/>
-    <Aboutme/>
+    <Aboutme />
     <Skills/>
     <Projects/>
 

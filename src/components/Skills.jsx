@@ -5,7 +5,7 @@ import { react, angular, html, css, node, js, flutter, java, unity, opengl, thre
 
 const Skills = () => {
   return (
-    <div className="main-skills-container">
+    <div className="main-skills-container" id="skills">
       <div className="skills-header">
         {/* 3d model */}
         <h2> Skil🏆s </h2>
