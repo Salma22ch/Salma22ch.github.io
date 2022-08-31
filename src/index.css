@@ -303,6 +303,7 @@ span:hover {
     grid-template-columns:auto auto auto;
     gap: 20px;
     padding: 10px;
+   
 }
 /* maximise container option + prev next button + to show 3 by 3 ==> flip the cord to display description*/
 /* https://codemyui.com/3d-card-flip-hovering-text/ */
@@ -311,30 +312,29 @@ span:hover {
 .project-container {
     border-radius: 1em;
     border: 2px solid rgba(255, 255, 255, 0.3);
-    height: 200px;
-    width: 230px;
+    max-height: 350px;
+    width: 250px;
     /* background-color: rgb(138, 62, 138); */
     box-shadow: 1px 2px 2px grey;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    /* text-align: center; */
     padding: 5%;
-    letter-spacing: 2px;
+   
 }
 
 .project-container h4{
-   text-shadow: 1px 2px 2px black;
+   text-shadow: 2px 3px 3px purple;
    margin-top: 5%;
    text-align: center;
+   letter-spacing: 2px;
+   margin-bottom: 7%;
 }
 
 
-/* .project-container span{
-    padding: 1px;
-    font-size: small;
-    
-} */
+.project-container p{
+    letter-spacing: 1px;
+}
 
 .tags{
     display: flex;
@@ -352,15 +352,15 @@ span:hover {
     height: inherit;
     width: inherit;
     object-fit: cover;
-    margin: 4px;
+    margin-bottom: 5px;
 }
 
 .buttons{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 15%;
-    margin-bottom: 10% !important;
+    margin-top: 10%;
+    margin-bottom: 8% !important;
 }
 
 .buttons button{

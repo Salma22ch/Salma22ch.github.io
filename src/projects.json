@@ -3,7 +3,7 @@
       {
         "id": 1,
         "Title": "Delivery App",
-        "Description": "Delivery app is a mobile application designed to connect customers and delivery people. It was created in collaboration with two of my colleagues during an internship at Soft Center.",
+        "Description": "Delivery app is a mobile application designed to connect customers and delivery people.",
         "tag":["#mobile-dev","flutter","firebase"],
         "Demo":"https://drive.google.com/file/d/1pxtRgNWK3zEIeUOkapFNcmErlwZ3AV8z/view?usp=sharing",
         "Github":""
@@ -13,15 +13,15 @@
         "Title": "Baztami",
         "Description": "It is a mobile application for budget management.",
         "tag":["#mobile-dev","flutter","firebase"],
-        "Demo":"",
+        "Demo":"https://drive.google.com/file/d/1gNYYq4fHrI-YB23XfTgqLp-8kqtY13cI/view?usp=sharing",
         "Github":"https://github.com/lkhadirn/Baztami-App-Flutter"
       },
       {
         "id": 3,
-        "Title": "Solar App",
+        "Title": "Energy optimisation ",
         "Description": "Mobile platform for monitoring the consumption of energy produced by solar panels",
         "tag":["#mobile-dev","flutter","node","mongodb"],
-        "Demo":"https://drive.google.com/file/d/1pxtRgNWK3zEIeUOkapFNcmErlwZ3AV8z/view?usp=sharing",
+        "Demo":"https://drive.google.com/file/d/1M170xSfHDFTrvnTyRhlW1BumQ5IP_l7m/view?usp=sharing",
         "Github":"https://github.com/Salma22ch/Solar-app-PFA"
       },
       {
@@ -34,7 +34,7 @@
       },
       {
         "id": 5,
-        "Title": "Interactive restaurant menu",
+        "Title": "Interactive menu",
         "Description": "As its name suggests, it is a mobile application offering an interactive restaurant menu to the user allowing him to choose and compose his meals easily.",
         "tag":["#mobile-dev","java","android"],
         "Demo":"https://www.youtube.com/watch?v=eZb0u09B4Fo&list=LL&index=1&t=4s&ab_channel=LKHADIRmostapha",
@@ -42,7 +42,7 @@
       },
       {
         "id": 6,
-        "Title": "Distinguish between real and VR memories.",
+        "Title": "VR memories",
         "Description": "With the development of VR technology, virtual experiences perfectly simulate real experiences and, over time, it is difficult to identify the source of a given memory. This project set out to help the memory correctly identify the environment in which the memory occurred.",
         "tag":["#VR/3D-dev","unity","c#"] ,
         "Demo":"",
@@ -50,7 +50,7 @@
       },
       {
         "id": 7,
-        "Title": "Communauté éphémère de Navigacom",
+        "Title": "NNG Navigacom",
         "Description": "In this project, we worked with Navigacom consultants during 4 months on topics like Sustaible It, digital sobriety and ecodesign of digital services. Our missions consisted in preparing the content of sessions organized by Navigacom for the CIOs of large French digital and industrial companies.",
         "tag":["#consulting","navigacom","NNG"],
         "Demo":"https://www.linkedin.com/posts/navigacom_sustainableit-sustainable-developpementdurable-activity-6955540649626456064-QaRE?utm_source=share&utm_medium=member_desktop",

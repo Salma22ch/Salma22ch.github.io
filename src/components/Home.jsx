@@ -4,6 +4,7 @@ import phone from '../assets/phone.png'
 import github from '../assets/github.png'
 import mail from '../assets/mail.png'
 import linkedin from '../assets/linkedin.png'
+import profil from '../assets/profil.jpg'
 import '../index.css'
 
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
         <div className="container-home">
             
             <div className="card-home">
-                <img id="my-img" src="https://cdn.pixabay.com/photo/2021/06/25/13/22/girl-6363743_960_720.jpg" />
+                <img id="my-img" src={profil} />
             </div>  
 
             <div className="info">

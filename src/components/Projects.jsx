@@ -43,7 +43,6 @@ const Projects = () => {
     setProjects(filteredprojects);
   }, [keyword]) // keyword when changed calls useEffect
 
-  console.log(typeof (projects))
   // e.target.outerText
 
   return (
@@ -62,8 +61,14 @@ const Projects = () => {
       </div>
       <div className="projects-content">
         {projects?.map((project) => (
-          <div className="project-container" key={project.id}>
+          <div style={{position:'relative'}}>
+            {/* idee hide/show */}
+           {/* front side */}
+          <div className="project-container front side" key={project.id}>
             <h4>{project.Title}</h4>
+            <p>
+              {project.Description}
+            </p>
             <div className="buttons">
               {project.Demo !== "" && (<a href={project.Demo} target="_blank" ><button style={{backgroundColor: "rgb(137, 92, 242)"}}>Demo</button></a>)}
               {project.Github !== "" && (<a href={project.Github} target="_blank"><button style={{backgroundColor: "rgb(216, 45, 222)"}} >Github</button></a>)}
@@ -74,9 +79,14 @@ const Projects = () => {
                 <img src={logsconvert(t)} alt={logsconvert(t)} />
               ))}
             </div>
-
+          </div>
+          {/* back side */}
+        
 
           </div>
+         
+
+          
         ))}
       </div>
     </div>
