@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36b7eb13.css",
+    "main.js": "/static/js/main.8b29ba00.js",
+    "static/media/profil.jpg": "/static/media/profil.8261e2f00c0f8216621f.jpg",
+    "static/media/unity.png": "/static/media/unity.f1e29ac150ce026adc9a.png",
+    "static/media/threejs.png": "/static/media/threejs.c43ba8780beccace5d71.png",
+    "static/media/ccharp.png": "/static/media/ccharp.33df28f14310c008e138.png",
+    "static/media/ip.png": "/static/media/ip.ab13e8fe639d417bf968.png",
+    "static/media/telecom.png": "/static/media/telecom.deeda4dfeed1a6c24c41.png",
+    "static/media/op.jpg": "/static/media/op.72a8fe48b8d3bbccefe0.jpg",
+    "static/media/mongodb.png": "/static/media/mongodb.bf8042403d8797a7ff1b.png",
+    "static/media/java.png": "/static/media/java.66d5a4fef00821dfe115.png",
+    "static/media/D3.png": "/static/media/D3.0e0a7c55c8b6b1070b7e.png",
+    "static/media/mail.png": "/static/media/mail.2d4bd87159c64afb44a6.png",
+    "static/media/Navigacom.jpeg": "/static/media/Navigacom.1e91c686c88c6395b65e.jpeg",
+    "static/media/opencv.png": "/static/media/opencv.d86ed828fca79699428f.png",
+    "static/media/c++.png": "/static/media/c++.f8a2092ad6c2e4552ecc.png",
+    "static/media/angular.png": "/static/media/angular.59e5b9679af9b9f00d6b.png",
+    "static/media/firebase.png": "/static/media/firebase.236ae3e4ef05a2984f5d.png",
+    "static/media/react.png": "/static/media/react.b37f0a4b7134b3c99d6e.png",
+    "static/media/mysql.png": "/static/media/mysql.ddd2c1c93bb0ee974d33.png",
+    "static/media/javascript.png": "/static/media/javascript.621f6061172a58343b60.png",
+    "static/media/python.png": "/static/media/python.57b7998ecec861bbbad1.png",
+    "static/media/redux.jpg": "/static/media/redux.7d4770cf37175adf52e9.jpg",
+    "static/media/css.png": "/static/media/css.5491a3b05b4addb59c15.png",
+    "static/media/html.png": "/static/media/html.397540dec969b31fd37c.png",
+    "static/media/flutter.png": "/static/media/flutter.074743969547c814fda2.png",
+    "static/media/android.png": "/static/media/android.1461f00954e7132e5d4e.png",
+    "static/media/node.png": "/static/media/node.9493a7030123ccb59d91.png",
+    "static/media/inpt.jpeg": "/static/media/inpt.facb8af5018396fb84f7.jpeg",
+    "static/media/my.jpeg": "/static/media/my.91bd437ddd9e821e1be0.jpeg",
+    "index.html": "/index.html",
+    "main.36b7eb13.css.map": "/static/css/main.36b7eb13.css.map",
+    "main.8b29ba00.js.map": "/static/js/main.8b29ba00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36b7eb13.css",
+    "static/js/main.8b29ba00.js"
+  ]
+}
