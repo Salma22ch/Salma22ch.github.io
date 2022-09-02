@@ -39,7 +39,7 @@ const Aboutme = () => {
             <p> GPA: 4/4</p>
            </div>
            <div className="content">
-            <h3>Institut Polytechnique de Paris </h3>
+            <h3>Institut national de postes et de Télécommunication. </h3>
             <p> Software engineering degree</p>
            </div>
            <div className="content">
