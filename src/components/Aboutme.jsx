@@ -6,7 +6,7 @@ const Aboutme = () => {
       <div className="skills-header">
         <h2> Abou 📑 me </h2>
         {/* double diplôme + expérience à l'international */}
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas earum cumque blanditiis hic, exercitationem sunt vero dolor doloribus odio repudiandae obcaecati, quam sint, deleniti laboriosam suscipit non libero deserunt rerum!</p>
+        <p>🍀 During my studies, I had the chance to study in the most prestigious engineering schools in Morocco and in France..</p>
         {/* differenct courses  in #interaction/UI conception/ Advanced programmation/ VR experience/ computer vision*/}
       </div>
 
@@ -35,16 +35,16 @@ const Aboutme = () => {
            </div>
            <div className="content">
             <h3>Telecom Paris </h3>
-            <p> Engineering degree  in 3D & interactive systems (IGR) and Markets, Organization, Data, Strategy study track (MODS)  </p>
+            <p> Engineering degree in double major: IGR (3D & interactive systems) and MODS (Markets, Organization, Data, Strategy study track )  </p>
+            <p> GPA: 4/4</p>
            </div>
            <div className="content">
             <h3>Institut Polytechnique de Paris </h3>
-            <p> Engineering degree in software engineering</p>
+            <p> Software engineering degree</p>
            </div>
            <div className="content">
             <h3>Preparatory classes Moulay Youssef </h3>
-            <p> Mathematics and Physics post-secondary studies leading to the nation-wide com-
-petitive exam for admission to a graduate engineering school. </p>
+            <p> Mathematics and Physics post-secondary studies. </p>
            </div>
           </div>
       </div>

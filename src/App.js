@@ -1,7 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Footer, NavBar, Aboutme, Home, Skills, Projects } from './components';
-import Title from 'react-vanilla-tilt'
+import { Footer, NavBar, Aboutme, Home, Skills, Projects, Resume } from './components';
 import './index.css';
 
 const App = () => (

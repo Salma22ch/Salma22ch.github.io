@@ -41,12 +41,13 @@
         "Github":"https://github.com/Salma22ch/Interactive-restaurant-menu"
       },
       {
-        "id": 6,
-        "Title": "VR memories",
-        "Description": "With the development of VR technology, virtual experiences perfectly simulate real experiences and, over time, it is difficult to identify the source of a given memory. This project set out to help the memory correctly identify the environment in which the memory occurred.",
-        "tag":["#VR/3D-dev","unity","c#"] ,
+        "id": 8,
+        "Title": "Personal website",
+        "Description": "My personal website. I tried to make it as sober as possible by applying the rules of digital sobriety. ",
+        "tag":["#web-dev","react","css"],
         "Demo":"",
-        "Github":"https://github.com/pyuan-21/IGR205-project"    
+        "Github":"https://github.com/Salma22ch/Portfolio"
+        
       },
       {
         "id": 7,
@@ -58,13 +59,12 @@
         
       },
       {
-        "id": 8,
-        "Title": "Personal website",
-        "Description": "My personal website. I tried to make it as sober as possible by applying the rules of digital sobriety. ",
-        "tag":["#web-dev","react","css"],
+        "id": 6,
+        "Title": "VR memories",
+        "Description": "With the development of VR technology, virtual experiences perfectly simulate real experiences and, over time, it is difficult to identify the source of a given memory. This project set out to help the memory correctly identify the environment in which the memory occurred.",
+        "tag":["#VR/3D-dev","unity","c#"] ,
         "Demo":"",
-        "Github":"https://github.com/Salma22ch/Portfolio"
-        
+        "Github":"https://github.com/pyuan-21/IGR205-project"    
       }
 
 
