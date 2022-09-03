@@ -96,28 +96,31 @@ p,ul,li{
 
 .info {
     margin-top: 5%;
-    padding: 10px;
+    padding: 1%;
 }
 
 
 .info h2 {
     padding-bottom: 5%;
+    text-align: center;
 }
 
 .info p,ul,li {
     margin: 0 auto;
     letter-spacing: .15em;
+    list-style: none
 }
 
+
 .links {
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 3%;
 }
 
 .links img {
-    width: 10%;
+    width: 8%;
     border-radius: 50%;
-    margin: 20px 15px;
+    margin: 4% 3%;
 
 }
 
@@ -402,3 +405,50 @@ span:hover {
 /* -------------Responsive design--------------------- */
 
 /* media query */
+
+/* home */
+@media screen and (max-width: 640px) {
+  
+    #tilt{
+        width: 70%;
+    }
+
+    .container-home {
+        max-width: 70%;
+        max-height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+    #my-img {
+        height: 40%;
+        width: 40%;
+        border-radius: 10%;
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    .info{
+        padding-left:3% ;
+        letter-spacing: .1em;
+        font-size: smaller;
+    }
+   
+    .info h2{
+        font-size: large !important;
+    }
+
+   .info li{
+    padding-left: 5%;
+   }
+
+   .links{
+    margin-left: 40%;
+   }
+   .links img{
+    margin: 1% 2%;
+   }
+
+    }

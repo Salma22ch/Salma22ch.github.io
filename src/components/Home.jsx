@@ -26,10 +26,10 @@ const Home = () => {
                     <br/>
                     <p> 🧐 I'm interested in:</p>
                         <ul>
-                            <li> Web/Mobile/VR developement</li>
-                            <li> Data visualisation </li>
-                            <li> Computer vision</li>
-                            <li> Web 3.0</li>
+                            <li> #Web/Mobile/VR developement</li>
+                            <li> #Data visualisation </li>
+                            <li> #Computer vision</li>
+                            <li> #Web 3.0</li>
                         </ul>
                     <div className="links">
                         <a href="mailto:salmachana219@gmail.com" target="_blank"><img src={mail}/></a>
