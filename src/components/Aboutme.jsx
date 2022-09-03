@@ -6,7 +6,7 @@ const Aboutme = () => {
       <div className="skills-header">
         <h2> Abou 📑 me </h2>
         {/* double diplôme + expérience à l'international */}
-        <p>🍀 During my studies, I had the chance to study in the most prestigious engineering schools in Morocco and in France..</p>
+        <p>🍀 During my studies, I had the chance to study in the most prestigious engineering schools in Morocco and in France, and discover interesting fields of study like : software engineering, computer graphics, strategy and market organization.</p>
         {/* differenct courses  in #interaction/UI conception/ Advanced programmation/ VR experience/ computer vision*/}
       </div>
 
@@ -36,10 +36,10 @@ const Aboutme = () => {
            <div className="content">
             <h3>Telecom Paris </h3>
             <p> Engineering degree in double major: IGR (3D & interactive systems) and MODS (Markets, Organization, Data, Strategy study track )  </p>
-            <p> GPA: 4/4</p>
+      
            </div>
            <div className="content">
-            <h3>Institut national de postes et de Télécommunication. </h3>
+            <h3>Institut national des postes et télécommunications </h3>
             <p> Software engineering degree</p>
            </div>
            <div className="content">
