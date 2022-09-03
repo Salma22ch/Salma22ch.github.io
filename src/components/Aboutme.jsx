@@ -2,7 +2,7 @@ import React from 'react'
 import { inpt, ip, telecom, my } from '../assets/technology'
 const Aboutme = () => {
   return (
-    <div className="main-skills-container" id="about">
+    <div className="main-timeline-container" id="about">
       <div className="skills-header">
         <h2> Abou 📑 me </h2>
         {/* double diplôme + expérience à l'international */}
