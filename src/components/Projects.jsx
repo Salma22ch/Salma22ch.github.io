@@ -48,7 +48,7 @@ const Projects = () => {
   return (
     <div className="project-main-container" id="projects">
       <div className="projects-header">
-        <h2>Proj🚀cts</h2>
+        <h2>Proj🎯cts</h2>
         <div className="key-words">
           <span style={{ backgroundColor: "grey" }} onClick={e => setkeyword('')}>#all</span>
           <span style={{ backgroundColor: "blue" }} onClick={e => setkeyword(e.target.outerText)}>#web-dev</span>

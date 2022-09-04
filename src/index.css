@@ -266,8 +266,8 @@ p,ul,li{
 
 .content h3 {
     color: purple;
-    margin-bottom: 5px;
-    margin-top: 12%;
+    margin-bottom: 7px;
+    margin-top: 13%;
 }
 
 /* projects section css styles  */
@@ -276,7 +276,7 @@ p,ul,li{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 45px ;
     margin-bottom: 100px;
 }
 
@@ -289,7 +289,7 @@ p,ul,li{
 /* top | right | bottom | left */
 
 .projects-header h2 {
-    margin: 10% auto 5px auto;
+    margin: 2% auto 5px auto;
     color: purple;
     font-size: 80px;
     font-weight: 500;
@@ -331,8 +331,7 @@ span:hover {
     border-radius: 1em;
     border: 2px solid rgba(255, 255, 255, 0.3);
     max-height: 350px;
-    width: 250px;
-    /* background-color: rgb(138, 62, 138); */
+    width: 230px;
     box-shadow: 1px 2px 2px grey;
     display: flex;
     flex-direction: column;
@@ -415,7 +414,7 @@ span:hover {
 /* media query */
 
 /* home */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 800px) {
   
     #tilt{
         width: 100% !important;
@@ -497,8 +496,8 @@ span:hover {
 /* skills section */
 
 .main-skills-container {
-    margin: 5px auto 10px 5%;
-    max-width: 100%;
+    margin: 5px auto 10px 20%;
+    max-width: 90%;
     max-height: 200%;
     display: flex;
     flex-direction: column;
@@ -509,15 +508,16 @@ span:hover {
 }
 
 .skills-header h2 {
+    margin: 10% auto 5px 20% !important;
     font-size: 350%;
-    margin-left: 20%;
+    margin-left: 17%;
 }
     
 .skills-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: auto;
+    /* margin-left: auto; */
     
 }
 
@@ -586,7 +586,13 @@ span:hover {
     font-size: 70%;
 }
 
-
+/* .nav-bar{
+    display: none;
+    position: absolute;
+}
+.nav-bar.responsive {
+    display: block;
+} */
 
 }
 
