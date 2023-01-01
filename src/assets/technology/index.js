@@ -43,3 +43,6 @@ export const NNG=require('./projects/NNG.jpg');
 export const redux=require('./projects/redux.jpg');
 export const ccharp=require('./projects/ccharp.png');
 export const android=require('./projects/android.png');
+
+// UX/UI design
+export const figma=require('./UX-UI/figma.png');

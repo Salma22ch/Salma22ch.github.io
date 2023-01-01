@@ -1,6 +1,6 @@
 import React from 'react'
 import Tilt from 'react-vanilla-tilt'
-import { react, angular, html, css, node, js, flutter, java, unity, opengl, threejs, mysql, oracle, mongodb , cplusplus, python, opencv, tableau, altair, D3}
+import { react, angular, html, css, node, js, flutter, java, unity, opengl, threejs, mysql, oracle, mongodb , cplusplus, python, opencv, tableau, altair, D3,figma}
   from '../assets/technology'
 
 const Skills = () => {
@@ -63,6 +63,10 @@ const Skills = () => {
               <img src={js} />
               <img src={python} />
               <img src={cplusplus} />
+            </div>
+            <h4>UX/UI Design</h4>
+            <div className="tech-row">
+              <img src={figma} />
             </div>
           </div>
         </Tilt>

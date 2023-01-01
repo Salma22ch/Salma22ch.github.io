@@ -4,8 +4,12 @@ import '../index.css'
 const Footer = () => {
   return (
     <div className='footer'>
-      Created By Salma CHANA   
+     <h3>
+     Created By Salma CHANA   
        Copyright  &copy; 2022
+      </h3> 
+      <br />
+      <br />
     </div>
   )
 }

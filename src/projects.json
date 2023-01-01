@@ -53,7 +53,7 @@
         "id": 7,
         "Title": "NNG Navigacom",
         "Description": "In this project, we worked with Navigacom consultants during 4 months on topics like Sustaible It, digital sobriety and ecodesign of digital services. Our missions consisted in preparing the content of sessions organized by Navigacom for the CIOs of large French digital and industrial companies.",
-        "tag":["#consulting","navigacom","NNG"],
+        "tag":["#consulting","navigacom","NNG","#sustainable-It"],
         "Demo":"https://www.linkedin.com/posts/navigacom_sustainableit-sustainable-developpementdurable-activity-6955540649626456064-QaRE?utm_source=share&utm_medium=member_desktop",
         "Github":""
         
@@ -65,7 +65,40 @@
         "tag":["#VR/3D-dev","unity","c#"] ,
         "Demo":"",
         "Github":"https://github.com/pyuan-21/IGR205-project"    
+      },
+      {
+        "id": 9,
+        "Title": "Nobel Prize Visualisation",
+        "Description": "A project to visualize the Nobel Prize winners from 1901 to 2016.",
+        "tag":["#Data-Vis","D3js"] ,
+        "Demo":"https://drive.google.com/file/d/1ecyWnxpCYrLEKdnCX1ktiushJK8nZqLy/view?usp=share_link",
+        "Github":"https://salma22ch.github.io/X-INF552-NobelPrizeProject/"    
+      },
+      {
+        "id": 10,
+        "Title": "Tap-Tap",
+        "Description": "A mobile game to play music.",
+        "tag":["#mobile-dev","java"],
+        "Demo":"https://drive.google.com/file/d/1IFW37J75y5tNWdpQj_LKa8N4MwKRpBQS/view?usp=sharing",
+        "Github":"https://github.com/Salma22ch/HCI909-Project-Tap-Tap"    
+      },
+      {
+        "id": 11,
+        "Title": "Konatus Project",
+        "Description": "Design interfaces to manage a company's schedule by project and by team.",
+        "tag":["#UX/UI-design","figma"] ,
+        "Demo":"https://www.youtube.com/watch?time_continue=1&v=hvb8zDkKP8c&feature=emb_logo",
+        "Github":""    
+      },
+      {
+        "id": 12,
+        "Title": "Climate change demonstration",
+        "Description": "Virtual experience demonstrating the impact of human activities on the environment.",
+        "tag":["#VR/3D-dev","unity","c#","#sustainable-It"] ,
+        "Demo":"https://drive.google.com/file/d/1Huj9b3GdMgdIKpStkOVjJCXIp_xfDRGn/view?usp=share_link",
+        "Github":"https://github.com/pyuan-21/HCI902a-Project"    
       }
+
 
 
 

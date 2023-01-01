@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../index.css'
-import { react, redux, node, flutter, css, firebase, unity, mongodb, navigacom, NNG, java, ccharp,android }
+import { react, redux, node, flutter, css, firebase, unity, mongodb, navigacom, NNG, java, ccharp,android,figma }
   from '../assets/technology'
 
 const Projects = () => {
@@ -33,6 +33,7 @@ const Projects = () => {
     if (t == "android") return android;
     if (t == "c#") return ccharp;
     if (t == "css") return css;
+    if (t == "figma") return figma;
   }
 
 
@@ -54,9 +55,9 @@ const Projects = () => {
           <span style={{ backgroundColor: "blue" }} onClick={e => setkeyword(e.target.outerText)}>#web-dev</span>
           <span style={{ backgroundColor: "peru" }} onClick={e => setkeyword(e.target.outerText)}>#mobile-dev</span>
           <span style={{ backgroundColor: "purple" }} onClick={e => setkeyword(e.target.outerText)}>#VR/3D-dev</span>
-          <span style={{ backgroundColor: "crimson" }} onClick={e => setkeyword(e.target.outerText)}>#Computer-vision</span>
-          <span style={{ backgroundColor: "orange" }} onClick={e => setkeyword(e.target.outerText)}>#consulting</span>
-          <span style={{ backgroundColor: "green" }} onClick={e => setkeyword(e.target.outerText)}>#sustainable-it</span>
+          <span style={{ backgroundColor: "crimson" }} onClick={e => setkeyword(e.target.outerText)}>#Data-Vis</span>
+          <span style={{ backgroundColor: "orange" }} onClick={e => setkeyword(e.target.outerText)}>#UX/UI-design</span>
+          <span style={{ backgroundColor: "green" }} onClick={e => setkeyword(e.target.outerText)}>#sustainable-It</span>
         </div>
       </div>
       <div className="projects-content">
