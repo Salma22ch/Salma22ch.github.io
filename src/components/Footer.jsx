@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footer'>
      <h3>
      Created By Salma CHANA   
-       Copyright  &copy; 2022
+       Copyright  &copy; 2023
       </h3> 
       <br />
       <br />
