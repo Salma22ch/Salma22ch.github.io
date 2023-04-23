@@ -91,6 +91,14 @@
         "Github":""    
       },
       {
+        "id": 13,
+        "Title": "Interactive mailbox",
+        "Description": "An interactive dashboard for visualizing your mailbox.",
+        "tag":["#Data-Vis","D3js"] ,
+        "Demo":"https://drive.google.com/file/d/1gkt8ah2SGmPA-ceCjJFlGfaOY2ooqzZ9/view?usp=sharing",
+        "Github":"https://email-visualisation.web.app/"
+      },
+      {
         "id": 12,
         "Title": "Climate change demonstration",
         "Description": "Virtual experience demonstrating the impact of human activities on the environment.",
@@ -98,6 +106,8 @@
         "Demo":"https://drive.google.com/file/d/1Huj9b3GdMgdIKpStkOVjJCXIp_xfDRGn/view?usp=share_link",
         "Github":"https://github.com/pyuan-21/HCI902a-Project"    
       }
+
+
 
 
 

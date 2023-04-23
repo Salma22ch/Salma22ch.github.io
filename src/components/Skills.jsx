@@ -1,6 +1,6 @@
 import React from 'react'
 import Tilt from 'react-vanilla-tilt'
-import { react, angular, html, css, node, js, flutter, java, unity, opengl, threejs, mysql, oracle, mongodb , cplusplus, python, opencv, tableau, altair, D3,figma}
+import { react, angular, html, css, node, js, flutter, java, unity, opengl, threejs, mysql, oracle, mongodb , cplusplus, python, opencv, tableau, altair, D3,VL,figma, balsamiq,adobe }
   from '../assets/technology'
 
 const Skills = () => {
@@ -55,6 +55,7 @@ const Skills = () => {
             <h4>Data visualisation</h4>
             <div className="tech-row">
               <img src={D3} />
+              <img src={VL} />
               <img src={altair} />
               <img src={tableau} />
             </div>
@@ -67,6 +68,8 @@ const Skills = () => {
             <h4>UX/UI Design</h4>
             <div className="tech-row">
               <img src={figma} />
+              <img src={adobe} />
+              <img src={balsamiq} />
             </div>
           </div>
         </Tilt>

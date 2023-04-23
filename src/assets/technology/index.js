@@ -27,6 +27,7 @@ export const python=require('./CV/python.png');
 
 //DV
 export const D3=require('./DV/D3.png');
+export const VL=require('./DV/vega_lite.png');
 export const altair=require('./DV/altair.png');
 export const tableau=require('./DV/tableau.png');
 
@@ -46,3 +47,5 @@ export const android=require('./projects/android.png');
 
 // UX/UI design
 export const figma=require('./UX-UI/figma.png');
+export const adobe=require('./UX-UI/Adobe_XD.png');
+export const balsamiq=require('./UX-UI/balsamiq.png');
