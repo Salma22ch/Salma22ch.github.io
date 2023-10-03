@@ -1,4 +1,5 @@
 // web icons
+export const vue=require('./web/VueJS.png');
 export const react=require('./web/react.png');
 export const angular=require('./web/angular.png');
 export const node=require('./web/node.png');
@@ -32,10 +33,10 @@ export const altair=require('./DV/altair.png');
 export const tableau=require('./DV/tableau.png');
 
 //universities
-export const my=require('./universites/my.jpeg');
-export const inpt=require('./universites/inpt.jpeg');
+export const my=require('./universites/cpge-m.png');
+export const inpt=require('./universites/inpt-m.png');
 export const ip=require('./universites/ip.png');
-export const telecom=require('./universites/telecom.png');
+export const telecom=require('./universites/TP.png');
 
 //projects
 export const firebase=require('./projects/firebase.png');

@@ -24,10 +24,11 @@ const Home = () => {
                     <h2> Hi, I'm  Salma CHANA 👋</h2>
                     <p>  👩‍💻 a second year master student major in Interaction, Graphic and Design. I enjoy building interactive and sustainable UI for web and mobile application.</p>
                     <br/>
-                    <p> 🧐 I'm interested in:</p>
-                        <ul>
+                    <p > 🧐 I'm interested in:</p>
+                        <ul className='interests'>
                             <li> #Web/Mobile/VR developement</li>
                             <li> #Data visualisation </li>
+                            <li> #Generic AI</li>
                             <li> #Computer vision</li>
                             <li> #Web 3.0</li>
                         </ul>

@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
 
 ::-webkit-scrollbar {
     display: none;
 } 
+
+:root {
+    --primary-color: purple;
+    --secondary-color:rgb(201, 40, 150);
+    --dark:rgb(0, 0, 36);
+    --on-primary:rgba(255, 255, 255, 0.3);
+  }
 
 * {
     margin: 0;
@@ -21,8 +29,8 @@
 
 }
 
-p,ul,li{
-    font-family:Source Serif Pro;
+p,ul, li{
+    font-family:'Lato';
     font-size: small;
 }
 
@@ -32,14 +40,12 @@ p,ul,li{
     position: fixed;
     overflow: hidden;
     text-align: center;
-    /* display: flex;
-    justify-content: center; */
     padding: 20px;
     margin-bottom: 10%;
     height: 8%;
     width: 100%;
     z-index: 99999999; /* keep the navbar above other elments*/
-    background-color: rgb(0, 0, 36);
+    background-color: var(--dark);
 
 }
 
@@ -55,7 +61,7 @@ p,ul,li{
 
 .nav-bar a:hover {
     transform: translateX(10px);
-    color: rgb(201, 40, 150);
+    color: var(--secondary-color);
     cursor:pointer;
 }
 
@@ -75,7 +81,7 @@ p,ul,li{
     max-width: 700px;
     max-height: 400px;
     border-radius: 1em;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid  var(--on-primary);
     display: flex;
     color: white;
 
@@ -130,6 +136,7 @@ p,ul,li{
 
 
 /* skills css styles */
+/* top | right | bottom | left */
 
 .main-skills-container {
     margin: 0 auto 150px auto;
@@ -144,9 +151,8 @@ p,ul,li{
 }
 
 .skills-header h2 {
-    /* top | right | bottom | left */
     margin: 5% auto 20px auto;
-    color: purple;
+    color: var(--primary-color);
     font-size: 80px;
     font-weight: 500;
 }
@@ -168,7 +174,7 @@ p,ul,li{
     width: 300px;
     height: 330px;
     border-radius: 1em;
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    border: 0.5px solid var(--on-primary);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -176,7 +182,7 @@ p,ul,li{
 
 .single-card h4 {
     margin-top: 20px;
-    color: rgb(212, 15, 212);
+    color: var(--secondary-color);
 }
 
 #tilt-single-card {
@@ -203,20 +209,26 @@ p,ul,li{
 
 /* About me css styles - Timeline */
 .main-timeline-container {
-    margin: 15px auto 300px auto;
+    margin: 15px auto 350px auto;
     max-width: 700px;
     max-height: 400px;
     display: flex;
     flex-direction: column;
 }
 
+.introduction{
+    padding:0 5%;
+    display: inline-block;
+}
 .container-timeline {
     display: flex;
-    flex-direction: row;
-    justify-content: start;
-    margin-left: 10%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
     margin-top:5%
 }
+
+
 
 .year-timeline {
     display: flex;
@@ -225,32 +237,33 @@ p,ul,li{
 }
 
 .year-timeline h3 {
-    margin-top: 72%;
     margin-right: 10px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .img-timeline {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
+    /* margin:1%; */
 
 }
 
 .img-timeline img {
-    max-width: 45px;
-    max-height: 45px;
+    max-width: 50px;
+    max-height: 50px;
     object-fit: cover;
-    border-radius: 30px;
-    margin: 5px;
+    border-radius: 10px;
+    margin: 10px 10px;
     background-color: white;
 }
 
 /* dotted line  ... */
 .vertical-line {
-    border-left: 6px solid purple;
+    border-left: 3px dotted var(--on-primary);
     height: 55px;
-    margin-left: 40%;
+    margin-left: 45%;
 }
 
 .info-timeline {
@@ -261,13 +274,16 @@ p,ul,li{
 
 .content {
     margin-left: 5px;
-    /* margin-bottom: 20px; */
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 5%;
+    border: 1px dotted var(--on-primary);
+    border-radius: 10px;
 }
 
 .content h3 {
-    color: purple;
-    margin-bottom: 7px;
-    margin-top: 13%;
+    color: var(--primary-color);
+    margin-bottom: 5px;
 }
 
 /* projects section css styles  */
@@ -289,8 +305,8 @@ p,ul,li{
 /* top | right | bottom | left */
 
 .projects-header h2 {
-    margin: 2% auto 5px auto;
-    color: purple;
+    margin: 5px auto 5px auto;
+    color: var(--primary-color);
     font-size: 80px;
     font-weight: 500;
 }
@@ -341,7 +357,7 @@ span:hover {
 }
 
 .project-container h4{
-   text-shadow: 2px 3px 3px purple;
+   text-shadow: 2px 3px 3px var(--primary-color);
    margin-top: 5%;
    text-align: center;
    letter-spacing: 2px;
@@ -468,31 +484,34 @@ span:hover {
     margin: 15px auto 10px auto;
 }
 
-.skills-header h2{
-    font-size: 350%;
-}
-
 .container-timeline {
+    justify-content: center;
     margin-left: 1%;
     margin-top:5%
 }
 
 .year-timeline h3 {
-    margin-top: 100%;
-    margin-left: 15%;
-    margin-bottom: 40%;
+    margin-top: 55px;
+    margin-bottom:55px;
     font-size: 80%;
+}
+
+.content {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5%;
 }
 
 .content h3{
     font-size: 80%;
-    margin-top: 60px;
 }
 
 .content p {
     font-size: 60%;
     margin-bottom: 11px;
 }
+
 
 /* skills section */
 
