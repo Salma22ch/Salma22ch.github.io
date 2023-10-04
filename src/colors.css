@@ -1,0 +1,15 @@
+
+:root {
+    --text-color:white;
+    --primary-color: purple;
+    --on-primary-color:rgba(255, 255, 255, 0.3);
+    --secondary-color:rgb(201, 40, 150);
+    --dark:rgb(0, 0, 36);
+    --start-gradient:rgb(0, 0, 36);
+    --end-gradient:rgba(25, 2, 36, 0.9); 
+
+    /* --start-gradient:#000518;
+    --end-gradient:#5a5d66;  */
+
+  }
+  
