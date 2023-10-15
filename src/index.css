@@ -38,8 +38,6 @@ li {
 .nav-bar {
     position: fixed;
     overflow: hidden;
-    border-radius: 1em;
-    width: fit-content;
     text-align: center;
     padding: 20px;
     margin-bottom: 10%;
@@ -605,8 +603,8 @@ span:hover {
     }
 
     .project-container {
-        max-height: 350px;
-        /* width: 90%; */
+        max-height: 550px;
+        width: 90%;
 
     }
 

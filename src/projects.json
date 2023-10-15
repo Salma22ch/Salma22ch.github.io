@@ -94,7 +94,7 @@
         "id": 13,
         "Title": "Interactive mailbox",
         "Description": "An interactive dashboard for visualizing your mailbox.",
-        "tag":["#Data-Vis","D3js"] ,
+        "tag":["#Data-Vis","Angular","D3js"] ,
         "Demo":"https://drive.google.com/file/d/1gkt8ah2SGmPA-ceCjJFlGfaOY2ooqzZ9/view?usp=sharing",
         "Github":"https://email-visualisation.web.app/"
       },

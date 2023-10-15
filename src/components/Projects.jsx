@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../index.css'
-import { react, redux, node, flutter, css, firebase, unity, mongodb, navigacom, NNG, java, ccharp,android,figma }
+import { react, redux, node, flutter, css, firebase, unity, mongodb, navigacom, NNG, D3, angular ,java, ccharp,android,figma }
   from '../assets/technology'
 
 const Projects = () => {
@@ -34,6 +34,8 @@ const Projects = () => {
     if (t == "c#") return ccharp;
     if (t == "css") return css;
     if (t == "figma") return figma;
+    if (t == "D3js") return D3; 
+    if (t == "Angular") return angular;
   }
 
 
