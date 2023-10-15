@@ -9,11 +9,7 @@ import '../index.css'
 
 const Home = () => {
     return (
-        <Tilt 
-        options={{ scale: 2 }}
-        id="tilt"
-
-    >
+        <Tilt options={{ scale: 2 }} id="tilt" >
         <div className="container-home" id="home">
             
             <div className="card-home">

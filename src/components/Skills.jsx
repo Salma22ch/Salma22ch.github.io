@@ -8,12 +8,10 @@ const Skills = () => {
     <div className="main-skills-container" id="skills">
       <div className="skills-header">
         {/* 3d model */}
-        <h2> Skil💻s </h2>
-        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas earum cumque blanditiis hic, exercitationem sunt vero dolor doloribus odio repudiandae obcaecati, quam sint, deleniti laboriosam suscipit non libero deserunt rerum!</p> */}
-        {/* <h2> ......... </h2> */}
+        <h2> Sk💻lls </h2>
       </div>
       <div className="skills-card">
-        <Tilt options={{ scale: 2 }} id="tilt-single-card">
+        {/* <Tilt options={{ scale: 2 }} id="tilt-single-card"> */}
           <div className="single-card">
             <h4>Web Developement</h4>
             <div className='tech-row'>
@@ -41,9 +39,9 @@ const Skills = () => {
               <img src={oracle} />
             </div>
           </div>
-        </Tilt>
+        {/* </Tilt> */}
 
-        <Tilt options={{ scale: 2 }} id="tilt-single-card">
+        {/* <Tilt options={{ scale: 2 }} id="tilt-single-card"> */}
           <div className="single-card">
             <h4>Computer vision</h4>
             <div className="tech-row">
@@ -71,7 +69,7 @@ const Skills = () => {
               <img src={balsamiq} />
             </div>
           </div>
-        </Tilt>
+        {/* </Tilt> */}
 
       </div>
 

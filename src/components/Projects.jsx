@@ -63,7 +63,7 @@ const Projects = () => {
       <div className="projects-content">
         {projects?.map((project) => (
           <div style={{position:'relative'}}>
-            {/* idee hide/show */}
+            {/* idea hide/show */}
            {/* front side */}
           <div className="project-container front side" key={project.id}>
             <h4>{project.Title}</h4>

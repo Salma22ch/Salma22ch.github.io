@@ -6,16 +6,13 @@ const App = () => (
   <div className='body'>
     {/* nav bar section ------------------ */}
     <NavBar />
-
     {/* main section ------------------- */}
-
-    <Home/>
-    <Aboutme />
-    <Skills/>
-    <Projects/>
-
-
-
+    <div className='main'>
+      <Home />
+      <Aboutme />
+      <Skills />
+      <Projects />
+    </div>
 
     {/* footer section ------------------------- */}
     <Footer />
