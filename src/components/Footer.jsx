@@ -6,7 +6,9 @@ const Footer = () => {
   return (
     <div className='footer'>
      <h3>
-     Created By Salma CHANA   
+     Created By Salma CHANA  ❤️
+     <br />
+     <br />
        Copyright  &copy; <span id='current-year'>{currentYear}</span>
       </h3> 
       <br />

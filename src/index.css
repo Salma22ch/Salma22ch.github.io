@@ -23,8 +23,12 @@
 .body {
     background-image: linear-gradient(var(--start-gradient), var(--end-gradient));
     background-size: cover;
-
 }
+
+body > * {
+    flex: 1; /* Make all direct children of body take available vertical space */
+  }
+  
 
 p,
 ul,
@@ -424,7 +428,6 @@ span:hover {
 
 }
 
-/* add flip icon  */
 
 /* footer css styles  */
 .footer {
@@ -596,15 +599,15 @@ span:hover {
     .projects-content {
         margin: auto;
         display: grid;
-        grid-template-columns: auto auto;
-        gap: 1%;
+        grid-template-columns: auto ;
+        /* gap: 1%; */
         padding: 10px;
 
     }
 
     .project-container {
         max-height: 550px;
-        width: 90%;
+        /* width: auto; */
 
     }
 
