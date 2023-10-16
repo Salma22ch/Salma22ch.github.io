@@ -1,17 +1,23 @@
 
 :root {
-    --text-color:white;
+   /* first palette */
+    --primary-text-color:white;
     --primary-color: purple;
     --on-primary-color:rgba(255, 255, 255, 0.3);
     --secondary-color:rgb(201, 40, 150);
     --dark:rgb(0, 0, 36);
-    /* --start-gradient:white;
-    --end-gradient:white; */
     --start-gradient:rgb(0, 0, 36);
-    --end-gradient:rgba(25, 2, 36, 0.9); 
+    --end-gradient:rgba(25, 2, 36, 0.9);
 
-    /* --start-gradient:#000518;
-    --end-gradient:#5a5d66;  */
+    /* second palette */
+    /* --primary-text-color:black;
+    --secondary-text-color:white;
+    --primary-color: #673de6;
+    --on-primary-color:#000000;
+    --secondary-color:#6747c7;
+    --start-gradient:rgb(255, 255, 255);
+    --end-gradient:rgba(255, 255, 255, 0.9); */
+
 
   }
   

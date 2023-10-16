@@ -20,13 +20,13 @@ const CustomIcon = ({ Icon, title }) => {
         onMouseLeave={handleMouseLeave}
         style={{
           display:'inline-block',
-          color:isHovered ? 'var(--secondary-color)' : 'white'
+          color:isHovered ? 'var(--secondary-color)' : 'var(--primary-text-color)'
         }}>
           <Icon 
-          stroke= {isHovered ? 'var(--secondary-color)' : 'white'} 
-          size= {16}
+          stroke= {isHovered ? 'var(--secondary-color)' : 'var(--primary-text-color)'} 
+          size= {18}
           style={{
-            margin:"5px 5px 0 0",
+            margin:"5px 5px -2px 0",
           }}
            />
            {title}

@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap');
 
 ::-webkit-scrollbar {
     display: none;
@@ -16,19 +17,19 @@
     /* transition: 1s; */
     font-family: 'League Spartan';
     box-sizing: border-box;
-    color: var(--text-color);
+    color: var(--primary-text-color);
 
 }
 
 .body {
     background-image: linear-gradient(var(--start-gradient), var(--end-gradient));
-    background-size: cover;
+    }
+
+body>* {    
+    flex: 1;
+    /* Make all direct children of body take available vertical space */
 }
 
-body > * {
-    flex: 1; /* Make all direct children of body take available vertical space */
-  }
-  
 
 p,
 ul,
@@ -43,19 +44,24 @@ li {
     position: fixed;
     overflow: hidden;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 10%;
-    height: 8%;
+    height: 7%;
     width: 100%;
     z-index: 99999999;
     /* keep the navbar above other elments*/
-    background-color: var(--dark);
+    /* background-color: var(--start-gradient); */
+    background: transparent;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
 
 }
 
 
 .nav-bar a {
-    color: var(--text-color);
+    color: var(--primary-text-color);
     text-align: center;
     padding: 20px;
     text-decoration: none;
@@ -78,7 +84,7 @@ li {
     /* height: 200px; */
     margin: auto !important;
     background-color: transparent !important;
-    box-shadow:  none !important;
+    box-shadow: none !important;
 
 }
 
@@ -90,7 +96,7 @@ li {
     border-radius: 1em;
     border: 1px solid var(--on-primary-color);
     display: flex;
-    color: var(--text-color);
+    color: var(--primary-text-color);
 
 }
 
@@ -170,7 +176,7 @@ li {
 
 .skills-header p {
     margin: 15px 15px 0px;
-    color: var(--text-color);
+    color: var(--primary-text-color);
 }
 
 
@@ -269,9 +275,9 @@ li {
     max-width: 50px;
     max-height: 50px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 20%;
     margin: 10px 10px;
-    background-color: var(--text-color);
+    background-color: var(--primary-text-color);
 }
 
 /* dotted line  ... */
@@ -284,16 +290,17 @@ li {
 .info-timeline {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
 }
 
 .content {
-    margin-left: 5px;
+    margin-left: auto;
     margin-top: 20px;
     margin-bottom: 15px;
     padding: 5%;
     border: 1px dotted var(--on-primary-color);
     border-radius: 10px;
+    width: 400px;
 }
 
 .content h3 {
@@ -309,6 +316,7 @@ li {
     justify-content: center;
     /* margin-top: 45px; */
     margin-bottom: 100px;
+    transition: width 0.5s ease;
 }
 
 .projects-header {
@@ -361,7 +369,7 @@ span:hover {
 /* transparent effect on card */
 .project-container {
     border-radius: 1em;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid var(--on-primary-color);
     max-height: 350px;
     width: 230px;
     /* box-shadow: 1px 2px 2px grey; */
@@ -438,7 +446,7 @@ span:hover {
     font-family: 'League Spartan';
     font-size: 15px;
     font-weight: 300;
-    color: var(--text-color);
+    color: var(--primary-text-color);
 
 
 }
@@ -453,6 +461,12 @@ span:hover {
     #tilt {
         width: 100% !important;
     }
+
+    .skills-header h2,
+    .projects-header h2 {
+        font-size: 50px;
+    }
+
 
     .container-home {
         max-width: 100%;
@@ -479,9 +493,7 @@ span:hover {
         font-size: smaller;
     }
 
-    .info h2 {
-        font-size: large !important;
-    }
+
 
     .info li {
         padding-left: 5%;
@@ -502,6 +514,7 @@ span:hover {
         max-width: 100%;
         max-height: 30%;
         margin: 15px auto 10px auto;
+        transition: width 0.5s ease;
     }
 
     .container-timeline {
@@ -516,11 +529,25 @@ span:hover {
         font-size: 80%;
     }
 
+    .milestone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .milestone img {
+        margin: 10px;
+        max-width: 10%;
+        max-height: 10%;
+        object-fit: cover;
+        border-radius: 50%;
+        background-color: var(--primary-text-color);
+    }
+
     .content {
-        width: 100%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 5%;
+        width: 60%;
+        margin: 10px 0;
+        padding: 3%;
     }
 
     .content h3 {
@@ -541,6 +568,7 @@ span:hover {
         max-height: 200%;
         display: flex;
         flex-direction: column;
+        transition: width 0.5s ease;
     }
 
     .skills-header {
@@ -550,8 +578,7 @@ span:hover {
     .skills-header h2 {
         margin: 5px auto 5px auto;
         color: var(--primary-color);
-        font-size: 80px;
-        font-weight: 500;
+        /* font-weight: 500; */
     }
 
     .skills-card {
@@ -562,12 +589,14 @@ span:hover {
 
     }
 
-    .single-card{
-        margin-left:auto ;
+    .single-card {
+        width: 60%;
+        margin-left: auto;
         margin-right: auto;
     }
+
     .single-card:first-child {
-        margin-bottom:10px ;
+        margin-bottom: 10px;
     }
 
     #tilt-single-card {
@@ -581,12 +610,12 @@ span:hover {
         max-height: 25px;
     }
 
+
     /* projects section */
 
     .projects-header h2 {
         margin: 5px auto 5px auto;
-        font-size: 350%;
-        font-weight: 500;
+
     }
 
     .key-words {
@@ -599,7 +628,7 @@ span:hover {
     .projects-content {
         margin: auto;
         display: grid;
-        grid-template-columns: auto ;
+        grid-template-columns: auto;
         /* gap: 1%; */
         padding: 10px;
 
@@ -607,8 +636,6 @@ span:hover {
 
     .project-container {
         max-height: 550px;
-        /* width: auto; */
-
     }
 
     .project-container h4 {
@@ -629,12 +656,6 @@ span:hover {
         font-size: 70%;
     }
 
-    /* .nav-bar{
-    display: none;
-    position: absolute;
-}
-.nav-bar.responsive {
-    display: block;
-} */
+
 
 }
