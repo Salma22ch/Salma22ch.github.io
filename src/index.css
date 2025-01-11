@@ -103,6 +103,9 @@ li {
 .card-home {
     margin-left: 0%;
     margin-right: 5%;
+    background-image: url('https://drive.google.com/uc?id=1uau1AXVBrzkTz5jTRd3Nc2yZhC1WkbGu');
+    background-size: cover;
+    background-position: center;
 }
 
 #my-img {
@@ -119,10 +122,13 @@ li {
     padding: 1%;
 }
 
-
 .info h2 {
     padding-bottom: 5%;
     text-align: center;
+}
+
+.info p{
+    padding: 4px 0;
 }
 
 .info p,

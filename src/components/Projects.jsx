@@ -12,30 +12,29 @@ const Projects = () => {
 
   // tagColor[Math.floor(Math.random()*7)
 
-
   // color array
-  const tagColor = ["grey", "blue", "peru", "purple", "crimson", "orange", "green"];
-  const wcolor = "peru";
+  // const tagColor = ["grey", "blue", "peru", "purple", "crimson", "orange", "green"];
+  // const wcolor = "peru";
 
   //images array
 
   const logsconvert = (t) => {
-    if (t == "react") return react;
-    if (t == "redux") return redux;
-    if (t == "node") return node;
-    if (t == "flutter") return flutter;
-    if (t == "firebase") return firebase;
-    if (t == "unity") return unity;
-    if (t == "mongodb") return mongodb;
-    if (t == "navigacom") return navigacom;
-    if (t == "NNG") return NNG;
-    if (t == "java") return java;
-    if (t == "android") return android;
-    if (t == "c#") return ccharp;
-    if (t == "css") return css;
-    if (t == "figma") return figma;
-    if (t == "D3js") return D3; 
-    if (t == "Angular") return angular;
+    if (t === "react") return react;
+    if (t === "redux") return redux;
+    if (t === "node") return node;
+    if (t === "flutter") return flutter;
+    if (t === "firebase") return firebase;
+    if (t === "unity") return unity;
+    if (t === "mongodb") return mongodb;
+    if (t === "navigacom") return navigacom;
+    if (t === "NNG") return NNG;
+    if (t === "java") return java;
+    if (t === "android") return android;
+    if (t === "c#") return ccharp;
+    if (t === "css") return css;
+    if (t === "figma") return figma;
+    if (t === "D3js") return D3; 
+    if (t === "Angular") return angular;
   }
 
 
